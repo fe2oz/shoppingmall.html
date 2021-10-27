@@ -1,0 +1,131 @@
+	
+	
+	
+			
+			
+			#slider{width:100%; height:1125px; background-color: white; margin-top:90px; position:relative;}
+			#slider > #five{width:95%; height:2px; background-color: #717171; position:absolute; left:50px; bottom:100px;}
+			
+			#main > .product_info{width:1180px; height: 810px; background-color: white; margin:0 auto; position:relative;}
+			#main > .product_info > #image > .main_product{width:520px; height:810px; overflow:hidden;}
+			#main > .product_info > #image > .main_product img{width:520px; height:810px;}
+			#main > .product_info > #image > .main_product img:hover{transform: scale(1.2); transition:0.3s ease-in-out;}
+			#main > .product_info > #one {width:50px; height:50px; border-radius: 50%; background-color:#af8d71; display:inline-block; position:absolute; left:550px; top:155px; border:5px solid #9f9f9f;}
+			#main > .product_info > #two {width:50px; height:50px; border-radius: 50%; background-color:#d2993f; display:inline-block; position:absolute; left:550px; top:215px; border:5px solid #9f9f9f;}
+			#main > .product_info > #three {width:50px; height:50px; border-radius: 50%; background-color:#dcb975; display:inline-block; position:absolute; left:550px; top:275px; border:5px solid #9f9f9f;}
+			#main > .product_info > #four{width:610px; height:2px; background-color:#717171; position:absolute; left:550px; top:540px;}
+
+			#main > .product_info > h1{font-family: 'Pretendard-Regular'; font-size: 35px; color:black; position:absolute; left:550px; top:50px; font-weight: normal;}
+			#main > .product_info > h2{font-family: 'Pretendard-Regular'; font-size: 15px; color:black; position: absolute; left:550px; top:375px; font-weight: normal;}
+			#main > .product_info > h3{font-family: 'Pretendard-Regular'; font-size: 15px; color:black; position:absolute; left:780px; top:375px; font-weight: normal;}
+			#main > .product_info > p{font-family: 'Pretendard-Regular'; font-size: 15px; color:black; position:absolute; left:930px; top:375px; font-weight: normal;}
+			#main > .product_info > h4{font-family: 'Pretendard-Regular'; font-size: 25px; color:black; position:absolute; left:550px; top:455px;}
+			#main > .product_info > h4 > s{color: #7c7c7c;}
+			 
+			#main > .product_info > .ww{ width:500px; height:25px; position:absolute; left:545px; top:560px; background-color: white;}
+			#main > .product_info > .ww td{font-family: 'Pretendard-Regular';}
+			#main > .product_info > .ww #menu{font-family: 'Pretendard-Regular'; width:70px; text-align: center; }
+
+			#main > .product_info > .btn1 {width:310px; height:95px; background-color: #362c28; color:white; font-family: 'Pretendard-Regular'; font-size: 20px; display:inline-block; position:absolute; left:550px; top:655px; cursor:pointer; border:0;}
+			#main > .product_info > .btn1:hover{background-color: #cfcac8; color:black; transition:0.3s;}
+			#main > .product_info > .btn2 {width:285px; height:45px; background-color: #9B908C; color:white; font-family: 'Pretendard-Regular'; font-size: 15px; display:inline-block; position:absolute; left:875px; top:655px; border:0; cursor:pointer;}
+			#main > .product_info > .btn2:hover{background-color: #bab5b4; color:black; transition:0.3s;}
+			#main > .product_info > .btn3 {width:285px; height:45px; background-color: #9B908C; color:white; font-family: 'Pretendard-Regular'; font-size: 15px; display:inline-block; position:absolute; left:875px; top:705px; border:0; cursor:pointer;}
+			#main > .product_info > .btn3:hover{background-color: #bab5b4; color:black; transition:0.3s;}
+
+			.section{width:100%; height:5805px; background-color: white; position:relative;}
+			
+			.product_detail{width:1180px; height:3115px; background-color: white; margin:0 auto;}
+
+			.product_detail > .detail_box1{width:1500px; height:565px; background-color: #c3c0ad; position:relative; right:500px; top:60px;}
+			.product_detail > .detail_box1 > .photo1{width:455px; height:680px; position:absolute; left:1225px; top:65px;}
+			.product_detail h1{font-family: 'ghanachoco'; font-size:65px; color:black; font-style:italic; text-align:center; text-transform: uppercase;}
+			.product_detail h2{font-family: 'Pretendard-Regular'; font-size:25px; color:black; font-weight: bold; position:absolute; left:500px; top:165px; line-height: 45px;}
+			.product_detail h2 > i{font-size:40px; letter-spacing: -1px;}
+			.product_detail h3{font-family: 'Pretendard-Regular'; font-size:20px; color:black; position:absolute; left:510px; top:295px;}
+			.product_detail > .detail_box1 > #square{width:440px; height:670px; background-color: #362c28; position:absolute; left:1255px; top:45px;}
+			.product_detail > .detail_box1 > .square2{width:495px; height:915px; background-color: #362c28;  position:absolute; top:525px; left:475px; z-index:4;}
+
+			.product_detail > .detail_box2{width:1180px; height:575px; background-color: white; margin-top:240px; position:relative;}
+			.product_detail > .detail_box2 > .photo2{width:500px; height:915px; position:relative; bottom:250px;}
+			.product_detail > .detail_box2 > .photo2 img{width:500px; height:915px; position:absolute; z-index:5;}
+			.product_detail > .detail_box2 > h4{width:600px; height:50px; font-family: 'Pretendard-Regular'; font-size:20px; background-color: white; color:black; position: absolute; left:545px; top:250px;}
+			
+			.product_detail > .detail_box3{width:1360px; height:540px; background-color:#c3c0ad; position:relative; left:180px;}
+			.product_detail > .detail_box3 > .photo3{width:455px; height:470px; position:relative; left:545px; bottom:145px;}
+			.product_detail > .detail_box3 h5{font-family: 'Pretendard-Regular'; font-size:20px; color:black; position: relative; top:220px;} 
+			.product_detail > .detail_box3 > #square3{width:450px; height:450px; background-color: #362c28; position:absolute; left:565px; bottom:5px;}
+
+			.product_detail > .detail_box4{width:1180px; height:1000px; background-color: white; margin-top:165px;}
+			.product_detail > .detail_box4 > .detail_photo_box1{width:525px; height:490px; overflow:hidden;}
+			.product_detail > .detail_box4 > .detail_photo_box2{width:260px; height:490px; position:relative; left:540px; bottom:490px; overflow:hidden;}
+			.product_detail > .detail_box4 > .detail_photo_box3{width:365px; height:490px; position:relative; left: 815px; bottom:980px; overflow:hidden;}
+			.product_detail > .detail_box4 > .detail_photo_box4{width:370px; height:495px; position:relative; bottom:965px; overflow:hidden;}
+			.product_detail > .detail_box4 > .detail_photo_box5{width:235px; height:495px; position:relative; left:385px; bottom:1460px; overflow:hidden;}
+			.product_detail > .detail_box4 > .detail_photo_box6{width:545px; height:495px; position:relative;  left:635px; bottom:1955px; overflow:hidden;}
+			
+			.product_detail > .detail_box4 > .detail_photo_box1 img{width:525px; height:490px;}
+			.product_detail > .detail_box4 > .detail_photo_box2 img{width: 260px; height:490px;}
+			.product_detail > .detail_box4 > .detail_photo_box3 img{width:365px; height:490px;}
+			.product_detail > .detail_box4 > .detail_photo_box4 img{width:370px; height:495px;}
+			.product_detail > .detail_box4 > .detail_photo_box5 img{width:235px; height:495px;}
+			.product_detail > .detail_box4 > .detail_photo_box6 img{width:545px; height:495px;}
+
+			.product_detail > .detail_box4 > .detail_photo_box1 img:hover{transform: scale(1.5); transition:0.2s ease-in-out;}
+			.product_detail > .detail_box4 > .detail_photo_box2 img:hover{transform: scale(1.5); transition:0.2s ease-in-out;}
+			.product_detail > .detail_box4 > .detail_photo_box3 img:hover{transform: scale(1.2); transition:0.2s ease-in-out;}
+			.product_detail > .detail_box4 > .detail_photo_box4 img:hover{transform: scale(1.5); transition:0.2s ease-in-out;}
+			.product_detail > .detail_box4 > .detail_photo_box5 img:hover{transform: scale(1.1); transition:0.2s ease-in-out;}
+			.product_detail > .detail_box4 > .detail_photo_box6 img:hover{transform: scale(1.5); transition:0.2s ease-in-out;}
+
+			.product_size{width:1180px; height:800px; background: white; margin:0 auto; margin-top:135px;}
+			.product_size h1{font-family: 'ghanachoco'; font-size:65px; color:black; font-style:italic; text-align:center;}
+			.product_size img{width:720px; height:700px; display:block; margin:0 auto; margin-top:15px;}
+
+			.product_notice{width:1180px; height:725px; background-color: white; margin:0 auto; margin-top:135px;}
+			.product_notice h1{font-family: 'ghanachoco'; font-size:65px; color:black; font-style:italic; text-align:center; }
+			.product_notice > #square_text{width:1180px; height:300px; background-color: #e4e1dc; margin-top:50px;}
+			.product_notice > #square_text h2{font-family: 'Pretendard-Regular'; font-size:30px; color:black; padding-top:10px;}
+			.product_notice h3{font-family: 'Pretendard-Regular'; font-size:30px; color:black;}
+
+			#shipping{width:1170px; height:500px; background-color: white; margin:0 auto; margin-top:175px;}
+			#shipping ul{width:1170px; height:65px; background-color:#9b908c;}
+
+			#shipping > #shippingbox1{width:100%; height:500px; background-color: white;}
+			#shipping > #shippingbox1 > ul > .w{ width:390px; height:100%;  float:left; font-weight: bold; text-align: center; border:1px solid #362c28;}
+			#shipping > #shippingbox1 > ul > .w:nth-child(1){background-color: white; border-bottom:none; }
+			#shipping > #shippingbox1 a{font-family: 'Pretendard-Regular'; font-size:20px; vertical-align: -20px;}
+			#shipping >  #shippingbox1 > #textbox {width:100%; height:500px; background-color:white;}
+			#shipping >  #shippingbox1 > #textbox > h2{font-family: 'Pretendard-Regular'; font-size:30px; padding:50px 0 0 30px;} 
+			#shipping >  #shippingbox1 > #textbox > ul{width:1100px; height:380px; background-color:white; margin-left:30px;}
+			#shipping >  #shippingbox1 > #textbox > ul > li{font-family: 'Pretendard-Regular'; font-size: 16px; list-style: disc; padding-top:25px; padding-right:20px; }
+
+			#shipping > #shippingbox2{width:100%; height:500px; background-color: white; display:none;}
+			#shipping > #shippingbox2 ul{width:1170px; height:65px; background-color:#9b908c;}
+			#shipping > #shippingbox2 > ul > li{ width:390px; height:100%;  float:left; font-weight: bold; text-align: center; border:1px solid #362c28;}
+			#shipping > #shippingbox2 > ul > li:nth-child(2){background-color: white; border-bottom:none; }
+			#shipping > #shippingbox2 > ul > li > a{font-family: 'Pretendard-Regular'; font-size:20px; vertical-align: -20px;}
+			#shipping > #shippingbox2 > h1 > button{width:100px; height:30px; background-color:#e4e1dc; float:right; margin-top:20px; margin-right:10px; border:0;}
+			#shipping > #shippingbox2 > h1 > button:hover{cursor: pointer;}
+			#shipping > #shippingbox2 > h1 > button{font-family: 'Pretendard-Regular'; font-size:14px; color:black; font-weight: bold;}
+
+			#shipping > #shippingbox2 > .review_table > table{width: 1160px; border-collapse: collapse; margin-top:70px; margin-left:5px; border:1px solid #362c28;}
+			#shipping > #shippingbox2 > .review_table td, th{font-family: 'Pretendard-Regular'; padding:15px; text-align: center; border:1px solid #EEEEEE;}
+			#shipping > #shippingbox2 > .review_table span{font-family: 'Pretendard-Regular';}
+			#shipping > #shippingbox2 > .review_table td span:hover{text-decoration: underline; cursor: pointer;}
+			#shipping > #shippingbox2 > .review_table button{width:30px; height:15px; font-size:10px; text-align: center; border:0; background-color:#2986cc; color:white;}
+
+			#shipping > #shippingbox3{width:100%; height:500px; background-color:white; display:none;}
+			#shipping > #shippingbox3 ul{width:1170px; height:65px; background-color:#9b908c;}
+			#shipping > #shippingbox3 > ul > .w{ width:390px; height:100%;  float:left; font-weight: bold; text-align: center; border:1px solid #362c28;}
+			#shipping > #shippingbox3 > ul > .w:nth-child(3){background-color: white; border-bottom:none; }
+			#shipping > #shippingbox3 > ul > li > a{font-family: 'Pretendard-Regular'; font-size:20px; vertical-align: -20px;}
+			#shipping > #shippingbox3 > h1 > button{width:100px; height:30px; background-color:#e4e1dc; float:right; margin-top:20px; margin-right:10px; border:0;}
+			#shipping > #shippingbox3 > h1 > button:hover{cursor: pointer;}
+			#shipping > #shippingbox3 > h1 > button{font-family: 'Pretendard-Regular'; font-size:14px; color:black; font-weight: bold;}
+
+			#shipping > #shippingbox3 > .inquiry_table{width: 1160px; border-collapse: collapse; margin-top:70px; margin-left:5px; border:1px solid #362c28;}
+			#shipping > #shippingbox3 > .inquiry_table td, th{font-family: 'Pretendard-Regular'; padding:10px; text-align: center; border:1px solid #EEEEEE;}
+			#shipping > #shippingbox3 > .inquiry_table div > button{width:20px; height:15px; font-size:0.5px; background-color:white; border:1px solid lightgray; box-shadow: 1px 1px 1px #e4e1dc;}
+			#shipping > #shippingbox3 > .inquiry_table span{font-family: 'Pretendard-Regular';}
+			#shipping > #shippingbox3 > .inquiry_table td span:hover{text-decoration: underline; cursor: pointer;}

@@ -1,0 +1,156 @@
+                       
+                       
+                       
+
+                       header{width:1580px; height:90px; margin:0 auto; background-color:white;}
+                       #logo{float:left; width:20px; height:30px; margin:10px 0px 30px 30px;} 
+                       .nav1 > nav  {float:left; width:600px; height:30px; margin:35px 30px 0 100px;}
+                       .nav1 > nav ul{font-family:"Lucida Console"; font-size:15pt;}
+                       .nav1 > nav ul li{float:left; padding:0 20px;}
+                       .nav1 > nav ul a{text-decoration:none; color:#2e2e2e;}
+                       .nav1 > nav ul a:hover{color:lightgray;}
+
+                       .nav2 > nav{float:right; width:270px; height:30px; margin:35px 30px 0px;}
+                       .nav2 > nav ul li{float:left; margin-left:-20px;}
+                       .nav2 > nav ul img{margin-right:35px;}
+                       
+                       #slider{width:100%; height:570px; margin:0 auto; background-color:#c3c0ad; position:relative; }
+                       #slider > .text > h1{font-family: 'ghanachoco';  font-size: 75px; color:white; position:absolute; top: 195px; left:130px; cursor:context-menu;}
+                       #slider > .text > h2{font-family: 'ghanachoco';  font-size: 20px; color:white; position: absolute; top:300px; left:145px; cursor:context-menu;}
+                       
+                       #slider .photo{width:60%; height:570px; float:right;}
+                       .photo img{width:100%; height: 100%;}
+
+                       .section1{width:1580px; height:950px; margin:0 auto; position:relative;}
+                      
+                       .box1{width:1110px; height:870px; margin:0 auto;  margin-top:70px;}
+                       .box1 > .box1-1{position: relative; width:345px; height:590px; background-size:100% 100%; background-repeat: no-repeat;}
+                       .box1 > .box1-1 p {font-family: 'ghanachoco';  font-size:33px; text-transform: uppercase; color:white; position:absolute; top:35px; left:30px;}
+
+                       .box1 > .box1-2{float:left; width:745px; height:265px; position:relative; left:380px; bottom:565px;} 
+                       .box1 > .box1-2 > .product1{float:left; width:230px; height:210px; margin-right:17px; margin-bottom:5px;}
+                       .box1 > .box1-2 > .product1 img{width:230px; height:210px; }
+                       .box1 > .box1-2 > .product1 img:hover{transform: scale(1.1); transition: 0.3s;}
+                       .box1 > .box1-2 > .product1 > a{font-family: 'Pretendard-Regular'; line-height: 13px; font-size:12px; }
+                       
+                       .box1 > .box1-2 > .product1 > a > p > s{text-decoration:line-through; color:#717171; font-weight: bold;}
+
+                       .box1 > .box1-3{float:right; width:745px; height:265px; position:relative; bottom:535px; left:15px;}
+                       .box1 > .box1-3 > .product2{float:left; width:230px; height:210px; margin-right:17px;}
+                        .box1 > .box1-3 > .product2 img{width:230px; height:210px;}
+                        .box1 > .box1-3 > .product2 img:hover{transform: scale(1.1); transition: 0.3s;}
+                        .box1 > .box1-3 > .product2 a{font-family: 'Pretendard-Regular'; line-height: 15px; font-size:12px;}
+                        .box1 > .box1-3 > .product2 > a > p > s{text-decoration: line-through; color:#717171; font-weight: bold;}
+
+                        .box1 > .box1-4{float:left;  width:300px; height:10px; position: relative; left:845px; bottom:860px;}
+                        .box1 > .box1-4 > ul{font-family: 'Pretendard-Regular';  font-size: 12px; letter-spacing: -1px;}
+                        .box1 > .box1-4 > ul > li {float:left; }
+                        .box1 > .box1-4 > ul > li a:hover{text-decoration: underline;}
+                        .box1 > .box1-4 > ul > li > a {float:left; margin:0px 25px 0px 0px;}
+                        
+
+                        .box1 > .box1-5{width:545px; height:200px; margin-top:80px; position:relative;} 
+                        .box1 > .box1-5 > .photo1 img{width:545px; height:200px; position: absolute; right:0px;}
+                        .box1 > .box1-5 > .photo1 #circle{width:160px; height:160px; border-radius: 50%; background-color: #dec16b; display:inline-block;
+                                                        position:absolute; top:20px; left:195px; opacity:0.8;}
+                        .box1 > .box1-5 > .photo1 #circle p{font-family: 'Pretendard-Regular';  color:white; font-size:20px; display:inline-block;
+                                                            position: absolute; left:35px; top:35px;}
+                        .box1 > .box1-5 > .photo1 #circle div{font-family: 'Pretendard-Regular';  color:white; font-size:65px; font-weight: bold; letter-spacing: -3px; position: absolute;
+                                                            top:50px; left:35px;}
+                        .box1 > .box1-5 > .photo1 #circle span{font-family: 'Pretendard-Regular';  color:white; position:absolute; top:65px; left:110px; font-size:30px;}
+
+                        .box1 > .box1-6{width:545px; height:200px; position: relative; bottom:1015px;}
+                        .box1 > .box1-6 > .photo2 img{width:540px; height:200px; position: absolute; top: 815px; left:570px;}
+                        .box1 > .box1-6 > .photo2 p{font-family: 'Pretendard-Regular'; font-weight: bold; font-size: 80px; color:white; position:absolute; top:865px; left:720px;}
+                        .box1 > .box1-6 > .photo2 #square{width:90px; height:30px; background-color:black; position:absolute; top:895px; left:800px; }
+                        .box1 > .box1-6 > .photo2 #square div{font-family: 'Pretendard-Regular';  position:absolute; color:white; font-size:13px; left:5px; top:7px;}
+
+                       .section2{width:100%; height:880px; margin:0 auto; background-color:#f4f4f4;}
+                       .box2{width:1115px; height:760px; margin:0 auto; background-color: #f4f4f4;}
+
+                        .box2-1{width:345px; height:590px; position: relative; left:770px; top:90px; background-size: cover;}   
+                        .box2-1 p{font-family: 'ghanachoco'; font-size:33px; color:white; position:absolute;  top:35px; left:230px; text-transform: uppercase;}
+
+                        .box2 > .box2-2{float:left; width:745px; height:265px; position:relative; bottom:475px;}
+                        .box2 > .box2-2 > .product3{float:left; width:230px; height:210px; margin-right:17px; }
+                        .box2 > .box2-2 > .product3 img{width:230px; height:210px;}
+                        .box2 > .box2-2 > .product3 img:hover{transform: scale(1.1); transition: 0.3s;}
+                        .box2 > .box2-2 > .product3 a{font-family: 'Pretendard-Regular';  font-size:12px; line-height:13px;}
+                        .box2 > .box2-2 > .product3 > a > p > s{text-decoration: line-through; color:#717171; font-weight: bold;}
+
+                        .box2 > .box2-3{float:left; width:745px; height:265px; position: relative; bottom:440px; }
+                        .box2 > .box2-3 > .product4{float:left; width:230px; height:210px; margin-right:17px;}
+                        .box2 > .box2-3 > .product4 img{width:230px; height:210px;}
+                        .box2 > .box2-3 > .product4 img:hover{transform: scale(1.1); transition: 0.3s;}
+                        .box2 > .box2-3 > .product4 > a{font-family: 'Pretendard-Regular';  font-size:12px; line-height:13px;}
+                        .box2 > .box2-3 > .product4 > a > p > s{text-decoration: line-through; color: #717171; font-weight: bold;}
+                        .box2 > .box2-3 > .product4 a > p > span{color:#717171; font-weight: bold;}
+
+                        .box2 > .box2-4{float:left; width:300px; height:10px; position: relative; bottom:770px; right:745px;}
+                        .box2 > .box2-4 > ul{font-family: 'Pretendard-Regular';  font-size: 12px; letter-spacing: -1px;} 
+                        .box2 > .box2-4 > ul > li{float:left;}
+                        .box2 > .box2-4 > ul > li > a {float:left; margin:0px 25px 0px 0px;}
+                        .box2 > .box2-4 > ul > li a:hover{text-decoration: underline;}
+                        
+                        
+                        .box3{width:1425px; height:240px;  outline:5px solid #3d362c; outline-offset: -20px; margin:0 auto; background-color:#322b23; position:relative; left:5px; z-index: 1;}
+                        .box3 > h1{font-family: 'ghanachoco';  color:white; padding:50px; position: absolute; margin:0 auto; left:480px;}
+                        .box3 > .box3-1{width:160px; height:85px; outline:2px solid #9f9c98; outline-offset: -15px; position: absolute; left:625px; bottom:30px;}
+                        .box3 > .box3-1 > a {font-family: 'Pretendard-Regular'; color: #797673; font-size: 10px; position:absolute; top:30px; left:40px;}
+
+                        .section3{width:100%; height:340px; margin:0 auto; background-color: white;}
+                        .box4    {width:1110px; height:315px; margin:0 auto; position: relative; top:180px;}
+                        .box4 > .box4-1{ width:1110px; height:240px; margin:0 auto; position:absolute;}
+                        .box4 > .box4-1 > .coments1-1 img{float:left; width:355px; height:240px; position: absolute; }
+                        .box4 > .box4-1 > .coments1-1 span{position: absolute; left:105px; top:55px; z-index:3; text-transform: uppercase; font-family: Adobe Gothic Std; color:white; font-size:45px; 
+                            color:rgba(0,0,0,0); -webkit-text-stroke: 1px white;}
+
+                        .box4 > .box4-1 > .coments1-2 #rectangle{ background-color: #968d81; float:left; width:355px; height:240px; position: absolute; left:380px; }
+                        .box4 > .box4-1 > .coments1-2 #rectangle p{color:white; font-family: 'Pretendard-Regular';  font-size:20px; position:absolute; top:20px; left:30px;}
+                        .box4 > .box4-1 > .coments1-2 #rectangle div{color:white; font-family: 'Pretendard-Regular';  font-size:45px; position:absolute; top:45px; left:30px;}
+                        .box4 > .box4-1 > .coments1-2 #rectangle span{color:white; font-family: 'Pretendard-Regular';  font-size:20px; position:absolute; top:105px; left:30px;}
+
+                        .box4 > .box4-1 > .coments1-3 img{float:left; width:355px; height:240px; position: absolute; left:755px; bottom: 1px;}
+                        .box4 > .box4-1 > .coments1-3 span{position:absolute; z-index:3; right:130px; top:50px; font-family: Adobe Gothic Std; font-size:45px; 
+                                                           color:rgba(0,0,0,0); -webkit-text-stroke: 1px white; }
+
+                        .box4 > .box4-2{float:right; width:1060px; height:150px; position: relative; bottom:75px;}
+                        .box4 > .box4-2 > .coments2 #rectangle1{float:right; width:305px; height:155px; background-color:white; box-shadow: 5px 5px 5px #dbdbdb;}
+                        .box4 > .box4-2 > .coments2 #rectangle1 p{font-family: 'Pretendard-Regular'; font-size:20px; padding-top:10px;}
+                        .box4 > .box4-2 > .coments2 #rectangle1 > .solid1{width:15px; height:2px; background-color:#888888; position:relative; left:5px; bottom:15px; }
+                        .box4 > .box4-2 > .coments2 #rectangle1 > .solid2{width:150px; height:2px; background-color:#888888; position:relative; left:140px; bottom:17px;}
+
+                        .box4 > .box4-2 > .coments2 #rectangle2{float:right; width:305px; height:155px; background-color: white; position: absolute; right:375px; box-shadow: 5px 5px 5px #dbdbdb;}
+                        .box4 > .box4-2 > .coments2 #rectangle2 p{font-family: 'Pretendard-Regular';  font-size:20px; padding-top:10px;}
+                        .box4 > .box4-2 > .coments2 #rectangle2 span{font-family: 'Pretendard-Regular'; font-size:15px; padding:10px;}
+                        .box4 > .box4-2 > .coments2 #rectangle2 > .solid1{width:15px; height:2px; background-color:#888888; position:relative; left:5px; bottom:35px;}
+                        .box4 > .box4-2 > .coments2 #rectangle2 > .solid2{width:150px; height:2px; background-color:#888888; position:relative; left:140px; bottom:37px;}
+
+                        .box4 > .box4-2 > .coments2 #rectangle3{float:right; width:305px; height:155px; background-color: white; position:absolute; box-shadow: 5px 5px 5px #dbdbdb;}
+                        .box4 > .box4-2 > .coments2 #rectangle3 p{font-family: 'Pretendard-Regular';  font-size:20px; padding-top:10px;}
+                        .box4 > .box4-2 > .coments2 #rectangle3 > .solid1{width:15px; height:2px; background-color:#888888; position:relative; left:5px; bottom:13px;}
+                        .box4 > .box4-2 > .coments2 #rectangle3 > .solid2{width:180px; height:2px; background-color:#888888; position:relative; left:110px; bottom:15px;}
+
+                        .section4{width:100%; height:330px; margin:0 auto; background-color:#f4f4f4;}
+
+                        footer   {width:100%; height:245px; background-color: #2a2a2a; position:absolute; margin:0 auto;}
+                        .section5-1{width:100%; height:55px; background-color: #1c1c1c; position:relative; margin:0 auto; top:245px;}
+                        .section5{width:1165px; height:190px; position:relative; margin:0 auto;}
+                        
+                        .section5 > .text-box-1 { width:175px; height:100px;}
+                        .section5 > .text-box-1 p{font-family: 'Pretendard-Regular';  font-size:15px; color:white;}
+                        .section5 > .text-box-1 div{font-family: 'Pretendard-Regular'; font-size:20px; color:white;}
+
+                        .section5 > .text-box-2{width:245px; height:155px; position:relative; left:255px; bottom:100px;}
+                        .section5 > .text-box-2 p{font-family: 'Pretendard-Regular';  font-size:15px; color:white; }
+                        .section5 > .text-box-2 div{font-family: 'Pretendard-Regular';  font-size:13px; color:white; position:relative; top:40px;} 
+                        
+                        .section5 > .text-box-3 {width:230px; height:175px; position:relative; left:635px; bottom:255px;}
+                        .section5 > .text-box-3 p{font-family: 'Pretendard-Regular';  font-size: 15px; color:white; position:absolute; left:35px; top:0px;}
+
+                        .section5 > .text-box-3 > .insta-imgbox1 img{float:left; width:70px; height:65px; position:relative; top:5px;  margin-right:5px;}
+                        
+                        .section5 > .text-box-3 > .insta-imgbox2 img{float:left; width:70px; height:65px; position:relative; top:10px; margin-right:5px;}
+
+                        .section5 > .text-box-4{width:200px; height:15px; position:relative; bottom:430px; left:985px;}
+                        .section5 > .text-box-4 p{float:left; font-family: 'Pretendard-Regular';  font-size:15px; color:white;}
